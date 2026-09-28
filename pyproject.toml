@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telemetry"
+version = "0.1.0"
+description = "工业遥测批量写入与数据质量核算库（SQLite 持久化）"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["telemetry"]
